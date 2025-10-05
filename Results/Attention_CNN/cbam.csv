@@ -1,0 +1,7 @@
+run_id,lr,optimizer,num_filters,dropout,batch_norm,pooling,best_val_acc,val_epoch,train_acc_at_best_val,test_acc,test_precision,test_recall,test_f1
+nb-7_bn-True_opt-AdamW_pool-none_dr-0.0,0.001,AdamW,"[32, 64, 128, 256, 128, 64, 32]",0,TRUE,none,0.908410549,33,0.939882437,0.903,0.904283092,0.904509084,0.90431033
+nb-7_bn-True_opt-AdamW_pool-max_dr-0.0,0.001,AdamW,"[32, 64, 128, 256, 128, 64, 32]",0,TRUE,max,0.91233072,24,0.969896687,0.903666667,0.905454787,0.905663459,0.905337101
+nb-7_bn-True_opt-AdamW_pool-avg_dr-0.0,0.001,AdamW,"[32, 64, 128, 256, 128, 64, 32]",0,TRUE,avg,0.910548824,39,0.977734236,0.903,0.903638951,0.904613267,0.903922433
+nb-7_bn-True_opt-AdamW_pool-none_dr-0.2,0.001,AdamW,"[32, 64, 128, 256, 128, 64, 32]",0.2,TRUE,none,0.891660727,20,0.90033844,0.884666667,0.887924526,0.885209482,0.88543819
+nb-7_bn-True_opt-AdamW_pool-max_dr-0.2,0.001,AdamW,"[32, 64, 128, 256, 128, 64, 32]",0.2,TRUE,max,0.904133999,25,0.949234058,0.902333333,0.905098926,0.903261864,0.903627025
+nb-7_bn-True_opt-AdamW_pool-avg_dr-0.2,0.001,AdamW,"[32, 64, 128, 256, 128, 64, 32]",0.2,TRUE,avg,0.91233072,24,0.941218383,0.898666667,0.901149952,0.900387492,0.900023553

@@ -1,0 +1,9 @@
+run_id,lr,optimizer,Model,Method,dropout,batch_norm,pooling,best_val_acc,val_epoch,train_acc_at_best_val,test_acc,test_precision,test_recall,test_f1
+nb-7_bn-True_opt-Adam_pool-avg_dr-0.0,0.001,Adam,StandardCNN,FPN,0,TRUE,avg,0.886671418,20,0.911560385,0.886666667,0.892395879,0.890869389,0.888147114
+nb-7_bn-True_opt-Adam_pool-avg_dr-0.0,0.001,Adam,StandardCNN,Regular,0,TRUE,avg,0.913043478,33,0.965087282,0.909666667,0.910977655,0.911102938,0.911006213
+opt-Adam_bn-True_pool-max_dr-0.1,0.001,Adam,AE_Classif,FPN,0.1,TRUE,max,0.627940128,50,0.602066263,0.618666667,0.616104965,0.614786727,0.612628036
+opt-Adam_bn-True_pool-max_dr-0.1,0.001,Adam,AE_Classif,Regular,0.1,TRUE,max,0.810762651,21,0.840755255,0.8,0.804143469,0.799980859,0.801325297
+nb-7_bn-True_opt-AdamW_pool-max_dr-0.0,0.001,AdamW,AttentionCNN,FPN,0,TRUE,max,0.856379187,9,0.864713217,0.834666667,0.853266879,0.841234325,0.832308333
+nb-7_bn-True_opt-AdamW_pool-max_dr-0.0,0.001,AdamW,AttentionCNN,Regular,0,TRUE,max,0.915181753,41,0.998218739,0.904,0.905720559,0.905734057,0.905606118
+opt-SGD_bn-True_dr-0.0_lr-0.001,0.1,SGD,Resnet18,FPN,0,TRUE,,0.870277976,23,0.99795155,0.869666667,0.870113168,0.871323742,0.870345664
+opt-SGD_bn-True_dr-0.0_lr-0.1,0.1,SGD,Resnet18,Regular,0,TRUE,,0.872416251,25,0.95716067,0.862,0.863759352,0.86406609,0.863796142
