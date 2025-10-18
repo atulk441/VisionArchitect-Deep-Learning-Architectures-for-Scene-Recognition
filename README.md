@@ -23,7 +23,7 @@ This study was executed over SHARCNET's high-perfromance computing infrastructur
    - DenseNet-201
    - Swin-V2-B
    - ConvNeXt-Large
-   - ResNet Pariants (18, 152)
+   - ResNet Variants (18, 152)
 
 ## Highlights of Research
 1) CLIP-L14 (Frozen) achieved the highest validation accuracy of 96% and 95.3% on the test set.
